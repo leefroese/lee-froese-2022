@@ -1,6 +1,7 @@
 ---
 title: Twenty Twenty Two
 description: 'Looking ahead to a new year.'
+createdAt: 'January 8, 2022'
 tags:
   - Goals
   - Challenges

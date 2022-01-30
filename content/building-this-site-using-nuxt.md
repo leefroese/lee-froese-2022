@@ -1,6 +1,7 @@
 ---
 title: Building This Site Using Nuxt
 description: 'A simple markdown blog using new to me technology.'
+createdAt: 'January 30, 2022'
 tags:
   - Nuxt
   - Vue
