@@ -5,6 +5,7 @@
       <PostDate :date="post.createdAt" />
       <nuxt-content :document="post" />
     </section>
+    <TheFooter />
   </main>
 </template>
 

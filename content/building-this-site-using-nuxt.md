@@ -1,5 +1,5 @@
 ---
-title: Building This Site Using Nuxt Part 1
+title: Building This Site Using Nuxt
 description: 'A simple markdown blog using new to me technology.'
 tags:
   - Nuxt
@@ -7,7 +7,7 @@ tags:
   - Markdown
 ---
 
-# Building This Site Using Nuxt Part 1
+# Building This Site Using Nuxt
 
 I've been wanting to re-build my website for the past couple of months. My previous website a simple landing page with some links to freelance client websites and my day job. As I've dialed back my freelancing, the site no longer suited my needs. Instead, I wanted to start writing and sharing some of my experiences as a web developer.
 

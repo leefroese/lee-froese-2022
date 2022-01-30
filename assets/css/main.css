@@ -74,24 +74,24 @@ a {
   display: inline-block;
 }
 
-a:not(.post-link):hover::before,
+a:not(.post-link):not(.icon-link):hover::before,
 a:not(.post-link):focus::before {
   transform: scaleY(1);
   background: theme('colors.green-dark');
 }
 
-a:not(.post-link):visited {
+a:not(.post-link):not(.icon-link):visited {
   color: theme('colors.green-dark');
 }
 
-a:not(.post-link):hover,
-a:not(.post-link):focus,
-a:not(.post-link):visited:hover,
-a:not(.post-link):visited:focus {
+a:not(.post-link):not(.icon-link):hover,
+a:not(.post-link):not(.icon-link):focus,
+a:not(.post-link):not(.icon-link):visited:hover,
+a:not(.post-link):not(.icon-link):visited:focus {
   color: theme('colors.white');
 }
 
-a:not(.post-link)::before {
+a:not(.post-link):not(.icon-link)::before {
   transform-origin: bottom center;
   content: '';
   display: block;
@@ -127,6 +127,10 @@ pre[class*="language-"] {
   background: theme('colors.gray-lighter') !important;
   border: 1px solid theme('colors.green');
   margin: 1rem 0 !important;
+}
+
+svg {
+  fill: currentColor;
 }
 
 .nuxt-content {
