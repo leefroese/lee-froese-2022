@@ -40,7 +40,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/google-analytics'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -57,5 +58,9 @@ export default {
     // Options
   },
 
-  pageTransition: 'page'
+  pageTransition: 'page',
+
+  googleAnalytics: {
+    id: 'UA-11252840-2'
+  }
 }
