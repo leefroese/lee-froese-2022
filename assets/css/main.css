@@ -45,7 +45,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,p,ul,ol,table,dl,dd {
-  margin-bottom: .7rem;
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -55,9 +55,13 @@ h1 {
 
 h2 {
   color: theme('colors.black');
-  letter-spacing: .09rem;
   margin-bottom: 1.7rem;
-  text-transform: uppercase;
+}
+
+p + h2,
+div + h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -104,6 +108,31 @@ a:not(.post-link)::before {
   z-index: -1;
 }
 
+code {
+  background: theme('colors.gray-lighter');
+  border: 1px solid theme('colors.green');
+  color: theme('colors.black');
+  font-size: 0.75rem;
+  padding: 0.25rem;
+}
+
+pre code {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+pre,
+pre[class*="language-"] {
+  background: theme('colors.gray-lighter') !important;
+  border: 1px solid theme('colors.green');
+  margin: 1rem 0 !important;
+}
+
+.nuxt-content {
+  padding-bottom: 3rem;
+}
+
 .nuxt-content ul,
 .nuxt-content ol {
   padding-left: 1.5rem;
@@ -113,6 +142,15 @@ a:not(.post-link)::before {
 }
 .nuxt-content ol {
   list-style: decimal;
+}
+.nuxt-content h1 {
+  font-size: 1.5rem;
+}
+.nuxt-content h2 {
+  font-size: 1.25rem;
+}
+.nuxt-content h3 {
+  color: theme('colors.black');
 }
 
 .page-enter-active,

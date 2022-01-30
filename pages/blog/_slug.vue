@@ -1,7 +1,7 @@
 <template>
   <main>
     <TheHeader />
-    <section class="[ container mx-auto ][ max-w-lg ]">
+    <section class="[ container mx-auto ][ max-w-2xl ][ px-6 ]">
       <PostDate :date="post.createdAt" />
       <nuxt-content :document="post" />
     </section>
@@ -11,7 +11,6 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    console.log(params)
     const post = await $content(params.slug).fetch()
     return { post }
   },
