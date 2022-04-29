@@ -81,7 +81,7 @@ window.dataLayer.push({
 
 ![](/images/apr29-pinterest-6.png)
 
-## 4. Add Checkount Conversion Tracking
+## 4. Add Checkout Conversion Tracking
 
 - This section also requires adding a dataLayer and pushing it to GTM by adding some front-end code to your website. If using WooCommerce for example, you can alter the /woocommerce/checkout/thank-you.php WooCommerce template that you've placed in your WordPress theme and include the following:
 ```
