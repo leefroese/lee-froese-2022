@@ -1,6 +1,6 @@
 <template>
   <header class="[ w-full ][ border-green border-t-4 ]">
-    <div class="[ container mx-auto ][ max-w-2xl ][ px-6 ]">
+    <div class="[ container mx-auto ][ max-w-3xl ][ px-6 ]">
       <div class="[ grid grid-cols-2 items-center ][ py-5 lg:py-10 xl:py-16 ]">
         <div>
           <h1>

@@ -256,7 +256,7 @@ The HTML markup for my blog posts is fairly simple and uses my `PostDate` compon
 <template>
   <main>
     <TheHeader />
-    <section class="[ container mx-auto ][ max-w-2xl ][ px-6 ]">
+    <section class="[ container mx-auto ][ max-w-3xl ][ px-6 ]">
       <PostDate :date="post.createdAt" />
       <nuxt-content :document="post" />
     </section>
