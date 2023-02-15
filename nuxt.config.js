@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'lee-froese-blog',
+    title: 'Lee Froese - Web Developer - Winnipeg, MB, Canada',
     htmlAttrs: {
       lang: 'en'
     },
