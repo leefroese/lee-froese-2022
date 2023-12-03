@@ -3,9 +3,7 @@
     <div class="[ container mx-auto ][ max-w-3xl ][ px-6 ]">
       <div class="[ grid grid-cols-2 items-center ][ py-5 lg:py-10 xl:py-16 ]">
         <div>
-          <h1>
-            <NuxtLink to="/">Lee Froese</NuxtLink>
-          </h1>
+          <NuxtLink class="[ mb-2 ]" to="/">Lee Froese</NuxtLink>
           <Titles v-if="isIndex" />
           <p class="[ mb-0 leading-4 ]" v-if="!isIndex">Web Developer</p>
         </div>
