@@ -7,6 +7,11 @@
       <h2 class="[ text-sm ][ mb-5 ]">Recent</h2>
       <ol>
         <li>
+          <h2 class="[ mb-2 ]"><a href="http://trekk.ca/" target="_blank" rel="noopener noreferrer">trekk.ca</a> <span class="[ text-sm ]">[educational]</span></h2>
+          <p class="[ text-sm ][ mb-3 ]">Headless WordPress, Nuxt.js, Vue.js, Tailwind CSS</p>
+          <p class="[ text-xs text-gray-light ]"><a href="https://www.thehatcherylabs.com/" target="_blank" rel="noopener noreferrer">The Hatchery</a></p>
+        </li>
+        <li class="[ mt-6 ]">
           <h2 class="[ mb-2 ]"><a href="https://muddconcrete.com/" target="_blank" rel="noopener noreferrer">muddconcrete.com</a> <span class="[ text-sm ]">[ecommerce]</span></h2>
           <p class="[ text-sm ][ mb-3 ]">WordPress, WooCommerce, Alpine.js, Tailwind CSS</p>
           <p class="[ text-xs text-gray-light ]">Team, <a href="https://www.thehatcherylabs.com/" target="_blank" rel="noopener noreferrer">The Hatchery</a></p>
@@ -26,7 +31,7 @@
       <ol>
         <li>
           <h2 class="[ mb-2 ]"><a href="https://www.arvindas.com/" target="_blank" rel="noopener noreferrer">arvindas.com</a> <span class="[ text-sm ]">[ecommerce]</span></h2>
-          <p class="[ text-sm ][ mb-3 ]">Prismic, Shopify, Nuxt.js, Tailwind CSS</p>
+          <p class="[ text-sm ][ mb-3 ]">Prismic, Shopify, Nuxt.js, Vue.js, Tailwind CSS</p>
           <p class="[ text-xs text-gray-light ]">Team, <a href="https://www.thehatcherylabs.com/" target="_blank" rel="noopener noreferrer">The Hatchery</a></p>
         </li>
         <li class="[ mt-6 ]">
@@ -36,12 +41,12 @@
         </li>
         <li class="[ mt-6 ]">
           <h2 class="[ mb-2 ]"><a href="https://www.thehatcherylabs.com/" target="_blank" rel="noopener noreferrer">thehatcherylabs.com</a> <span class="[ text-sm ]">[portfolio]</span></h2>
-          <p class="[ text-sm ][ mb-3 ]">Prismic, Next.js, GSAP, Tailwind CSS</p>
+          <p class="[ text-sm ][ mb-3 ]">Prismic, Next.js, React, GSAP, Tailwind CSS</p>
           <p class="[ text-xs text-gray-light ]"><a href="https://www.thehatcherylabs.com/" target="_blank" rel="noopener noreferrer">The Hatchery</a></p>
         </li>
         <li class="[ mt-6 ]">
           <h2 class="[ mb-2 ]"><a href="https://www.kidneyhealthcheck.ca/" target="_blank" rel="noopener noreferrer">kidneyhealthcheck.ca</a> <span class="[ text-sm ]">[questionnaire]</span></h2>
-          <p class="[ text-sm ][ mb-3 ]">Prismic, Next.js, Tailwind CSS</p>
+          <p class="[ text-sm ][ mb-3 ]">Prismic, Next.js, React, Tailwind CSS</p>
           <p class="[ text-xs text-gray-light ]"><a href="https://www.thehatcherylabs.com/" target="_blank" rel="noopener noreferrer">The Hatchery</a></p>
         </li>
         <li>
